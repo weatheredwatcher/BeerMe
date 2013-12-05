@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>jrngurerqjngpure@vpybhq.pbz</string>
+	<key>contactName</key>
+	<string>David Duggins</string>
+	<key>description</key>
+	<string>## This is a bundle that sticks some hipster filler in.
+curl hipsterjesus.com/api?paras=1</string>
+	<key>name</key>
+	<string>Hipster Ipsum</string>
+	<key>uuid</key>
+	<string>AF4F8041-06E5-42DA-9AA7-2FE6DB174AA0</string>
+</dict>
+</plist>

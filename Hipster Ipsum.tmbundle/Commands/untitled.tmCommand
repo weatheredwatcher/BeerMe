@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/ruby
+
+require 'open-uri'
+require 'json'
+ 
+url = 'http://hipsterjesus.com/api?paras=1'
+ 
+buffer = open(url, "UserAgent" =&gt; "Ruby-Wget").read
+ 
+# convert JSON data into a hash
+
+result = JSON.parse(buffer)
+hipster = result['text']
+puts hipster</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^@b</string>
+	<key>name</key>
+	<string>Beer me!</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>snippet</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
+	<key>uuid</key>
+	<string>04427D91-66DE-418F-B806-F68ADB97124D</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
